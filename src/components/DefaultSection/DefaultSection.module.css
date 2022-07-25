@@ -1,0 +1,13 @@
+.default_section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(384px, 1fr));
+    gap: 24px;
+    grid-template-rows: auto;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 56px 0;
+}

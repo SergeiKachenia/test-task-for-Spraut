@@ -1,0 +1,14 @@
+.link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.015em;
+    color: #18A0FB;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.link__active {
+    color: #F99400;
+}

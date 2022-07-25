@@ -1,0 +1,33 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid #DBDBDB;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.logo_and_copyright {
+    display: flex;
+    flex-direction: column;
+    padding: 48px 0 24px;
+}
+
+.links_list {
+    display: flex;
+    flex-direction: row;
+    gap: 33px;
+    list-style-type: none;
+    align-items: center;
+    margin: 0 40px 0 0;
+}
+
+.copyright {
+    margin: 24px 0 0 40px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    text-align: right;
+    letter-spacing: -0.015em;
+    color: rgba(0, 0, 0, 0.8);
+}

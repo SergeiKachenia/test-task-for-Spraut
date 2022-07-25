@@ -1,0 +1,55 @@
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #18A0FB;
+    outline: none;
+    border-radius: 6px;
+    background-color: #FFFFFF;
+    padding: 11px 41px;
+    max-height: 40px;
+    min-width: 130px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.015em;
+}
+
+.button:hover:enabled {
+    cursor: pointer;
+}
+
+.button__first {
+    background-color: #FFFFFF;
+    color: #18A0FB;
+    fill: #18A0FB;
+}
+
+.button__second {
+    background: #18A0FB;
+    color: #FFFFFF;
+    fill: #FFFFFF;
+    padding: 11px 14px;
+}
+
+.button:disabled {
+    background-color: #FFFFFF;
+}
+
+.loader:disabled {
+    background-color: #FFFFFF;
+}
+
+.loader_icon {
+    animation: rotation 2s linear infinite normal forwards running;
+    padding: 11px 33px;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
